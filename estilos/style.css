@@ -29,15 +29,16 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);background-color: white;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 #forml {
     background-color: white;
-    height: 200px;
-    width: 450px;
     border-radius: 10px;
     padding: 10px;
 
@@ -48,5 +49,5 @@ main {
     background-position: center center;
     background-size: cover;
     height: 200px;
-    width: 450px;
+
 }
